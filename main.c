@@ -3,14 +3,14 @@
 
 int main()
 {
-    int num1;
-    int num2;
-    int sum;
+    int counter;
+    printf("Enter any digit less than or equal to 10.\n");
+    scanf("%d",&counter);
 
-    num1 = 555555;
-    num2 = 55555;
-    sum = num1 + num2;
+    for(counter = -1;counter < 11;counter++){
+        printf("%d.\n", counter);
+    }
+    printf("Thank you for your cooperation");
 
-    printf("The sum of %d and %d is %d.\n", num1, num2,sum);
     return 0;
 }
